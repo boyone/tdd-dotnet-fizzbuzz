@@ -42,4 +42,17 @@ public class FizzBuzzTest
         // Assert
         Assert.Equal(expectedResult, actualResult);
     }
+
+    [Fact]
+    public void Number_4_Should_Say_4()
+    {
+        // Arrange
+        var expectedResult = "4";
+
+        // Act
+        var actualResult = fizzBuzz.Say(4);
+
+        // Assert
+        Assert.Equal(expectedResult, actualResult);
+    }
 }
