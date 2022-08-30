@@ -2,12 +2,13 @@ namespace FizzBuzz.Tests;
 
 public class FizzBuzzTest
 {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+
     [Fact]
     public void Number_1_Should_Say_1()
     {
         // Arrange
         var expectedResult = "1";
-        var fizzBuzz = new FizzBuzz();
 
         // Act
         var actualResult = fizzBuzz.Say(1);
@@ -21,7 +22,6 @@ public class FizzBuzzTest
     {
         // Arrange
         var expectedResult = "2";
-        var fizzBuzz = new FizzBuzz();
 
         // Act
         var actualResult = fizzBuzz.Say(2);
@@ -35,7 +35,6 @@ public class FizzBuzzTest
     {
         // Arrange
         var expectedResult = "Fizz";
-        var fizzBuzz = new FizzBuzz();
 
         // Act
         var actualResult = fizzBuzz.Say(3);
