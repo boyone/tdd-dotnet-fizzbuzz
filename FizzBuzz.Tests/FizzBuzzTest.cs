@@ -29,4 +29,18 @@ public class FizzBuzzTest
         // Assert
         Assert.Equal(expectedResult, actualResult);
     }
+
+    [Fact]
+    public void Number_3_Should_Say_Fizz()
+    {
+        // Arrange
+        var expectedResult = "Fizz";
+        var fizzBuzz = new FizzBuzz();
+
+        // Act
+        var actualResult = fizzBuzz.Say(3);
+
+        // Assert
+        Assert.Equal(expectedResult, actualResult);
+    }
 }
