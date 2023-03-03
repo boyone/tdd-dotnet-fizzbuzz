@@ -139,6 +139,12 @@
      ```sh
      dotnet tool install -g dotnet-reportgenerator-globaltool
      ```
+     
+   - Install `dotnet-reportgenerator-globaltool` for Mac m1/m2
+
+     ```sh
+     dotnet tool install -g dotnet-reportgenerator-globaltool -a arm64
+     ```
 
      > หลังจาก install dotnet-reportgenerator-globaltool ให้ set path ไปที่ reportgenerator
 
